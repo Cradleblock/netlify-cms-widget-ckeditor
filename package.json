@@ -8,7 +8,7 @@
     "widget",
     "ckeditor"
   ],
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "wiesjahn/netlify-cms-widget-ckeditor",
   "homepage": "https://github.com/netlify/netlify-cms-widget-starter",
   "license": "MIT",
