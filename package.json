@@ -1,5 +1,5 @@
 {
-  "name": "netlify-cms-widget-ckeditor",
+  "name": "netlify-cms-widget-ckeditor4",
   "description": "An implementation of CkEditor for Netlify CMS widgets.",
   "keywords": [
     "netlify",
@@ -9,7 +9,7 @@
     "ckeditor"
   ],
   "version": "0.1.0",
-  "repository": "/Cradleblock/netlify-cms-widget-ckeditor",
+  "repository": "cradleblock/netlify-cms-widget-ckeditor",
   "homepage": "https://github.com/Cradleblock/netlify-cms-widget-ckeditor",
   "license": "MIT",
   "main": "dist/main.js",
