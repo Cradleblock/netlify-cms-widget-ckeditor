@@ -1,6 +1,6 @@
 {
   "name": "netlify-cms-widget-ckeditor",
-  "description": "A boilerplate for creating Netlify CMS widgets.",
+  "description": "An implementation of CkEditor for Netlify CMS widgets.",
   "keywords": [
     "netlify",
     "netlify-cms",
@@ -9,8 +9,8 @@
     "ckeditor"
   ],
   "version": "0.1.0",
-  "repository": "wiesjahn/netlify-cms-widget-ckeditor",
-  "homepage": "https://github.com/netlify/netlify-cms-widget-starter",
+  "repository": "/Cradleblock/netlify-cms-widget-ckeditor",
+  "homepage": "https://github.com/Cradleblock/netlify-cms-widget-ckeditor",
   "license": "MIT",
   "main": "dist/main.js",
   "devDependencies": {
