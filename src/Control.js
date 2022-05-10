@@ -18,24 +18,28 @@ export default class Control extends React.Component {
     const { forID, value, onChange, classNameWrapper } = this.props;
 
     return (
-      <CKEditor
-        config={{
-          toolbar: [
-            ["Styles", "Format"],
-            ["Bold", "Italic", "Mark"],
-            ["Image", "Link"],
-            ["Source"],
-          ],
-
-          // removePlugins: "image",
-          // allowedContent: "*[id], *[class]",
-          extraAllowedContent: "mark;*[id];*(*)",
-        }}
-        id={forID}
-        className={classNameWrapper}
-        value={value || ""}
-        onChange={(event) => onChange(event.editor.getData())}
-      />
+      <div>
+        <section className="container">
+          <CKEditor
+            config={{
+              toolbar: [
+                ["Styles", "Format"],
+                ["Bold", "Italic", "Mark"],
+                ["Image", "Link"],
+                ["Source"],
+              ],
+              format_tags: "p;h3;h4;h5;h6",
+              extraAllowedContent: "mark;*[id];*(*)",
+            }}
+            type="classic"
+            onBeforeLoad={(CKEDITOR) => (CKEDITOR.disableAutoInline = true)}
+            id={forID}
+            className={classNameWrapper}
+            data={value}
+            onChange={(event) => onChange(event.editor.getData())}
+          />
+        </section>
+      </div>
     );
   }
 }

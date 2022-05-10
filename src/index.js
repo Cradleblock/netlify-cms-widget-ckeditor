@@ -2,8 +2,8 @@ import Control from "./Control";
 import Preview from "./Preview";
 
 if (typeof window !== "undefined") {
-  window.Control = Control;
-  window.Preview = Preview;
+  window.CkEditorControl = Control;
+  window.CkEditorPreview = Preview;
 }
 
-export { Control, Preview };
+export { Control as CkEditorControl, Preview as CkEditorPreview };
